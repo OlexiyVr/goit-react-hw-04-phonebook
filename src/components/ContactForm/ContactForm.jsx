@@ -6,7 +6,6 @@ import { FormField, Input, Label } from './ContactForm.styled';
 
 import Button from '../Button';
 
-import XRegExp from 'xregexp';
 
 export const ContactForm = ({ getSubmitData }) => {
   const handleSubmit = (values, { resetForm }) => {
